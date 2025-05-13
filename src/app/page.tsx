@@ -8,14 +8,6 @@ export default function Home() {
       <main className="grid h-screen">
         <section className="grid bg-gradient-to-b from-red-50 h-1/2 place-items-center">
           <div className="flex gap-8 my-auto">
-            <div className="overflow-hidden bg-white rounded-full p-4 border border-gray-200 shadow-sm">
-              <Image
-                src="/logo.png"
-                alt="Griffith ICT Club"
-                width={150}
-                height={150}
-              />
-            </div>
             <div className="my-auto flex flex-col gap-2">
               <h1 className="text-5xl font-bold tracking-tighter">
                 Griffith ICT Club
@@ -34,6 +26,14 @@ export default function Home() {
                   Learn More
                 </Button>
               </div>
+            </div>
+            <div className="overflow-hidden bg-white rounded-md p-4 border border-gray-200 shadow-sm">
+              <Image
+                src="/logo.png"
+                alt="Griffith ICT Club"
+                width={150}
+                height={150}
+              />
             </div>
           </div>
         </section>
